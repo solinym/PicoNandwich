@@ -32,15 +32,11 @@ Both CE points must be pulled HIGH to 3.3v with a resistor inline. (Tested both 
  - **Buzzer/Speaker** - Wire up a buzzer/speaker for audio feedback. (cause why not?)
 
 
-https://github.com/user-attachments/assets/00d4de92-12ca-4c38-94c6-d7ae0058b440
-
-
-
 ### Serial Features
 This firmware contains Serial features as well. You will use this to configure power sensing. You can also use it to send other various commands to the pico, view pico/nand status and view your console's UART output.
 
 ![Console](image.png)
-
+https://github.com/user-attachments/assets/00d4de92-12ca-4c38-94c6-d7ae0058b440
 
 **Calibrating Power Sense**
 
