@@ -21,7 +21,6 @@ Both CE points must be pulled HIGH to 3.3v with a resistor inline. (Tested both 
  - Hold the sync button briefly, LED/Buzzer will indicate which NAND is selected by lighting up or beeping one, two, three or four times depending on the setup. 
  - Hold the sync button for around 8 seconds to put the Pico into BOOTSEL/bootloader mode. Pico will flash 3 times with a long beep. (If you don't have access to the Pico's physical button, do NOT turn off the console or unplug the cable since this will wipe the firmware and you will have no way to write the firmware back to the Pico without opening your console.)
 
-
 ### Quality of Life Features
  - **Persistent Config** - Saves all settings and active nand between power cycles.
  - **Serial Console** - Configure your PicoNandwich and get information.
@@ -33,11 +32,15 @@ Both CE points must be pulled HIGH to 3.3v with a resistor inline. (Tested both 
  - **Buzzer/Speaker** - Wire up a buzzer/speaker for audio feedback. (cause why not?)
 
 
+https://github.com/user-attachments/assets/00d4de92-12ca-4c38-94c6-d7ae0058b440
+
+
+
 ### Serial Features
 This firmware contains Serial features as well. You will use this to configure power sensing. You can also use it to send other various commands to the pico, view pico/nand status and view your console's UART output.
 
 ![Console](image.png)
-<video src="[https://github.com/solinym/PicoNandwich/raw/refs/heads/main/video.mp4](https://github.com/solinym/PicoNandwich/raw/refs/heads/main/video.mp4)" width="80%" controls></video>
+
 
 **Calibrating Power Sense**
 
