@@ -37,7 +37,7 @@ Both CE points must be pulled HIGH to 3.3v with a resistor inline. (Tested both 
 This firmware contains Serial features as well. You will use this to configure power sensing. You can also use it to send other various commands to the pico, view pico/nand status and view your console's UART output.
 
 ![Console](image.png)
-<video src="https://github.com/solinym/PicoNandwich/raw/refs/heads/main/video.mp4" width="80%" controls></video>
+<video src="[https://github.com/solinym/PicoNandwich/raw/refs/heads/main/video.mp4](https://github.com/solinym/PicoNandwich/raw/refs/heads/main/video.mp4)" width="80%" controls></video>
 
 **Calibrating Power Sense**
 
