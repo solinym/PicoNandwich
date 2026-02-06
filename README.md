@@ -30,6 +30,7 @@ PicoNandwich is a dual nand solution for the Xbox 360 that uses a Raspberry Pi P
 
 ### Serial Features
 This firmware contains some Serial features as well. You can check the status of the pico/console and send commands back. It uses a 115200 Baud Rate.
+
 ![Console](https://github.com/solinym/PicoNandwich/blob/main/Arduino_IDE_ldOfcprlcx.png?raw=true)
 
 ### ***Some Disclaimers***
