@@ -2,6 +2,7 @@
 PicoNandwich is a dual nand solution for the Xbox 360 that uses a Raspberry Pi Pico for nand switching (and other features).
 
 ### Pinout/Wiring
+Both CE points must be pulled HIGH to 3.3v with a resistor inline. (Tested both 3.3k and 10k, both work fine.)
 |Pico|Console|
 |--|--|
 |GPIO 0|BUZZER +|
